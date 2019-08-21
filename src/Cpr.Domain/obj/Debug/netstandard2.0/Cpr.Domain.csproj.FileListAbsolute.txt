@@ -1,0 +1,9 @@
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/bin/Debug/netstandard2.0/Cpr.Domain.deps.json
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/bin/Debug/netstandard2.0/Cpr.Domain.dll
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/bin/Debug/netstandard2.0/Cpr.Domain.pdb
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.csprojAssemblyReference.cache
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.csproj.CoreCompileInputs.cache
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.AssemblyInfoInputs.cache
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.AssemblyInfo.cs
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.dll
+/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/Debug/netstandard2.0/Cpr.Domain.pdb

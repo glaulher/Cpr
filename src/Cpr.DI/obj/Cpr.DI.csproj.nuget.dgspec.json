@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj": {}
+  },
+  "projects": {
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj",
+        "projectName": "Cpr.DI",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj"
+              },
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj",
+        "projectName": "Cpr.Data",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj",
+        "projectName": "Cpr.Domain",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
