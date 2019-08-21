@@ -36,7 +36,8 @@ namespace Cpr.Domain.LivroCaixa
         {
             DomainException.when(categoria == null, "Categoria é requerida");
             DomainException.when(string.IsNullOrEmpty(descricao), "Descrição é requirido");
-            DomainException.when(valor < 0, "Valor é requerido");           
+            DomainException.when(valor < 0, "Valor é requerido");   
+            DomainException.when(valor > 999999, "Valor maior que o pemitido");         
         }
 
         public void RemoveFromStock(int quantity){

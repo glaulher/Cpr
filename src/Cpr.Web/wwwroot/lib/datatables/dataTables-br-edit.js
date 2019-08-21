@@ -36,7 +36,7 @@
                // Remove the formatting to get integer data for summation
                var intVal = function ( i ) {
                    return typeof i === 'string' ?
-                       i.replace("R$","").replace(/[\,]/g, '.')*1 :
+                       i.replace("R$","").replace(/[\$.]/g, '').replace(/[\$,]/g, '')*1 :
                        typeof i === 'number' ?
                            i : 0;
                };
@@ -56,11 +56,18 @@
                    .reduce( function (a, b) {
                        return intVal(a) + intVal(b);
                    }, 0 );
-               
+                   
+                // Create our number formatter.
+                var formatter = new Intl.NumberFormat('pt-BR', {
+                    style: 'currency',
+                    currency: 'BRL',
+                });
+  
+                total = total/100;
                // Update footer
                $( api.column( 4 ).footer() ).html(
                //    '$'+pageTotal.toFixed(2).replace(".",",") +' ( $'+ total.toFixed(2).replace(".",",") +' total)'
-               'R$ '+total.toFixed(2).replace(".",",")
+               formatter.format(total)
                );
            }
        } );
